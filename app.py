@@ -63,4 +63,4 @@ st.write(user_data)
 
 Rank = model.predict(user_data)
 st.subheader('Rank List')
-st.subheader(str(np.round(Rank[0], 2)))
+st.subheader(int(np.round(Rank[0], 2)))
